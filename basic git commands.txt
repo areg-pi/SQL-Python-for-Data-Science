@@ -1,0 +1,32 @@
+
+	Hello world con Git
+
+	Comandos usados para mi primer git desde CMD:
+	
+	Ir a la carpeta del proyecto:
+	
+	# Inicializar el repositorio
+	>>git init
+	
+	# Ver status
+	>>git status
+	
+	# Agregar todos los archivos del folder en el que está
+	>>git add -A
+	>>git status
+
+	# Se crea una captura de la versión actual del proyecto 
+	>>git commit -m "version 1"
+	# El texto de "version 1" puede ser lo que sea
+	
+	# Pasos extra de setup del usuario
+	>>git config --global user.email "gerardonc_14@hotmail.com" 
+	>>git config --global user.name "areg-pi" 
+	
+	# Indicarle a la versión local el repositorio X al que se irá
+	>>git remote add origin https://github.com/areg-pi/SQL-Python-for-Data-Science
+	# Link del repo en línea
+	
+	# Mandar archivos de nuestro proyecto local al repo
+	>>git push origin master
+	# Si es primera vez, probablemente se abra un tab para pedir acceso a la cuenta	
